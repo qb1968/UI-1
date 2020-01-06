@@ -71,9 +71,15 @@ body {
   }
 
 header p1{
-	color: darkblue;
+	font-size: 50px;
+	color: black;
+	align-content: space-around;
 }
 
 nav img{
 	height:50px;
 }
+
+div img{
+	height:65px;
+  }
