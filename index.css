@@ -66,13 +66,9 @@ h1, h2, h3, h4, h5 {
 
 /* My Code Starts Here */
 
-body {
-	background-color: lightblue; 
-  }
-
 header p1{
 	font-size: 50px;
-	color: black;
+	color: lightblue;
 	align-content: space-around;
 }
 
@@ -80,6 +76,24 @@ nav img{
 	height:50px;
 }
 
+nav :hover{
+	color:red;
+}
+
 div img{
 	height:65px;
-  }
+}
+
+body{
+	background: url(https://images.unsplash.com/photo-1517344884509-a0c97ec11bcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+p{
+	color: lightblue;
+}
+
+h1, h2, h3, h4, h5{
+	color: lightblue;
+}
