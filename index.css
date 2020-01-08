@@ -53,9 +53,12 @@ table {
     box-sizing: border-box;
 }
 
+html {
+	font-size: 62.5%;
+  }
+
 html, body {
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -72,6 +75,9 @@ header p1{
 	align-content: space-around;
 }
 
+.content, nav, footer{
+	font-size: 2.5rem;
+}
 nav img{
 	height:50px;
 }
@@ -102,7 +108,9 @@ html{
 	text-align: center;
 }
 
-/* Media quiries  */
+/* Media queries  */
 @media (max-width: 500px) {
-
+	body{
+		font:red;
+	}
 }
