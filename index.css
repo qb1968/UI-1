@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 header p1{
 	font-size: 50px;
-	color: white;
+	color: lightseagreen;
 	align-content: space-around;
 }
 
@@ -91,19 +91,18 @@ body{
 }
 
 p{
-	color: white;
+	color: yellow;
 }
 
 h1, h2, h3, h4, h5{
 	color: white;
 }
 
-/*title{
-	flex-direction: ;
+html{
 	text-align: center;
-}*/
+}
 
 /* Media quiries  */
-/*@media (max-width: 600px) {
+@media (max-width: 500px) {
 
-}*/
+}
