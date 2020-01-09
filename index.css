@@ -145,6 +145,7 @@ h5 {
 }
 h1 {
   font-size: 4rem;
+  padding-bottom: 10px;
 }
 h2 {
   font-size: 3.2rem;
@@ -183,7 +184,8 @@ nav div {
   font-size: 2rem;
 }
 .myimages {
-  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .weights {
   border-bottom: 2px dashed silver;
